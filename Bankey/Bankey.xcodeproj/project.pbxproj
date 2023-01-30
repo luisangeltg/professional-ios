@@ -13,6 +13,7 @@
 		933150B42982290F00B56062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933150B22982290F00B56062 /* LaunchScreen.storyboard */; };
 		933150BE2982296000B56062 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933150BD2982296000B56062 /* LoginView.swift */; };
 		93FC51F02983916000044628 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC51EF2983916000044628 /* OnBoardingContainerViewController.swift */; };
+		93FC51F429845BA800044628 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC51F329845BA800044628 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		933150B52982290F00B56062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933150BD2982296000B56062 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		93FC51EF2983916000044628 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		93FC51F329845BA800044628 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				93FC51EF2983916000044628 /* OnBoardingContainerViewController.swift */,
+				93FC51F329845BA800044628 /* OnboardingViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				933150BE2982296000B56062 /* LoginView.swift in Sources */,
 				933150AC2982290F00B56062 /* LoginViewController.swift in Sources */,
+				93FC51F429845BA800044628 /* OnboardingViewController.swift in Sources */,
 				933150A82982290F00B56062 /* AppDelegate.swift in Sources */,
 				93FC51F02983916000044628 /* OnBoardingContainerViewController.swift in Sources */,
 			);
@@ -303,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KHJXUHA973;
+				DEVELOPMENT_TEAM = 2TNWB9G88C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bankey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,7 +334,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KHJXUHA973;
+				DEVELOPMENT_TEAM = 2TNWB9G88C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Bankey/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
