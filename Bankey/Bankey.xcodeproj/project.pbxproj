@@ -12,6 +12,7 @@
 		933150B12982290F00B56062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933150B02982290F00B56062 /* Assets.xcassets */; };
 		933150B42982290F00B56062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933150B22982290F00B56062 /* LaunchScreen.storyboard */; };
 		933150BE2982296000B56062 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933150BD2982296000B56062 /* LoginView.swift */; };
+		93DA6356298BA3B100401570 /* AccountSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DA6355298BA3B100401570 /* AccountSummaryCell.swift */; };
 		93FC51F02983916000044628 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC51EF2983916000044628 /* OnBoardingContainerViewController.swift */; };
 		93FC51F429845BA800044628 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC51F329845BA800044628 /* OnboardingViewController.swift */; };
 		93FC51F62987D08B00044628 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FC51F52987D08B00044628 /* DummyViewController.swift */; };
@@ -31,6 +32,7 @@
 		933150B32982290F00B56062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933150B52982290F00B56062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		933150BD2982296000B56062 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		93DA6355298BA3B100401570 /* AccountSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryCell.swift; sourceTree = "<group>"; };
 		93FC51EF2983916000044628 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		93FC51F329845BA800044628 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		93FC51F52987D08B00044628 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,23 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		93DA6353298BA37B00401570 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				93FC520B298B89A500044628 /* AccountSummaryHeaderView.swift */,
+				93FC520D298B89DD00044628 /* AccountSummaryHeaderView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		93DA6354298BA39000401570 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				93DA6355298BA3B100401570 /* AccountSummaryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		93FC51EE2983911600044628 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				93FC51FF298AF4B000044628 /* AccountSummaryViewController.swift */,
-				93FC520B298B89A500044628 /* AccountSummaryHeaderView.swift */,
-				93FC520D298B89DD00044628 /* AccountSummaryHeaderView.xib */,
+				93DA6353298BA37B00401570 /* Header */,
+				93DA6354298BA39000401570 /* Cells */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -208,6 +227,7 @@
 				93FC520C298B89A500044628 /* AccountSummaryHeaderView.swift in Sources */,
 				93FC51F62987D08B00044628 /* DummyViewController.swift in Sources */,
 				933150AC2982290F00B56062 /* LoginViewController.swift in Sources */,
+				93DA6356298BA3B100401570 /* AccountSummaryCell.swift in Sources */,
 				93FC51F429845BA800044628 /* OnboardingViewController.swift in Sources */,
 				93FC51FD2989C47C00044628 /* MainViewController.swift in Sources */,
 				93FC5200298AF4B000044628 /* AccountSummaryViewController.swift in Sources */,
